@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777793975330",
+    "project_id": "desafio-smash",
+    "storage_bucket": "desafio-smash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777793975330:android:9918883a0aaa241a79067b",
+        "android_client_info": {
+          "package_name": "com.example.smash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777793975330-39okpcurpaq3r5h0dmpah63hbtk2r6ba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc9v3IoPWsNmp6kwl4aGrlU3VzfD0RqiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777793975330-39okpcurpaq3r5h0dmpah63hbtk2r6ba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

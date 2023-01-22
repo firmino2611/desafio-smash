@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Chegutu",
+    "country": "Zimbabwe",
+    "subcountry": "Mashonaland West",
+    "geonameid": 894239
+  },
+  {
+    "name": "Bulawayo",
+    "country": "Zimbabwe",
+    "subcountry": "Bulawayo",
+    "geonameid": 894701
+  },
+  {
+    "name": "Bindura",
+    "country": "Zimbabwe",
+    "subcountry": "Mashonaland Central",
+    "geonameid": 895061
+  },
+  {
+    "name": "Beitbridge",
+    "country": "Zimbabwe",
+    "subcountry": "Matabeleland South",
+    "geonameid": 895269
+  },
+  {
+    "name": "Epworth",
+    "country": "Zimbabwe",
+    "subcountry": "Harare",
+    "geonameid": 1085510
+  },
+  {
+    "name": "Chitungwiza",
+    "country": "Zimbabwe",
+    "subcountry": "Harare",
+    "geonameid": 1106542
+  },
+  {
+    "name": "Dibba Al-Fujairah",
+    "country": "United Arab Emirates",
+    "subcountry": "Al Fujayrah",
+    "geonameid": 292231
+  },
+  {
+    "name": "Dibba Al-Hisn",
+    "country": "United Arab Emirates",
+    "subcountry": "Al Fujayrah",
+    "geonameid": 292239
+  },
+  {
+    "name": "Sharjah",
+    "country": "United Arab Emirates",
+    "subcountry": "Ash Shāriqah",
+    "geonameid": 292672
+  },
+  {
+    "name": "Ar Ruways",
+    "country": "United Arab Emirates",
+    "subcountry": "Abu Dhabi",
+    "geonameid": 292688
+  }
+]
