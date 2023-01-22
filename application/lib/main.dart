@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:smash/firebase_options.dart';
@@ -17,10 +16,10 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  if (kDebugMode) {
-    // Substituir o host pelo ip de execução do emulador
-    FirebaseFirestore.instance.useFirestoreEmulator("192.168.0.13", 8080);
-  }
+  // if (kDebugMode) {
+  //   // Substituir o host pelo ip de execução do emulador
+  //   FirebaseFirestore.instance.useFirestoreEmulator("192.168.0.13", 8080);
+  // }
 
   GetIt.instance.registerSingleton<ListController>(
     ListController(

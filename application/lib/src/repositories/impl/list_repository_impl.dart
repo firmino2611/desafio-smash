@@ -15,6 +15,7 @@ class ListRepositoryImpl implements ListRepository {
     final cities = await firestore
         .collection("cities")
         .where("country", isEqualTo: country)
+        .orderBy("name")
         .get();
 
     return cities.docs.map((city) {
@@ -26,7 +27,8 @@ class ListRepositoryImpl implements ListRepository {
 
   @override
   Future<List<CountryModel>> listCountries() async {
-    final countries = await firestore.collection("countries").get();
+    final countries =
+        await firestore.collection("countries").orderBy("name").get();
 
     return countries.docs.map((country) {
       return CountryModel.fromMap({

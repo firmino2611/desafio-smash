@@ -33,7 +33,9 @@ class _ListCountriesPageState extends State<ListCountriesPage> {
       body: Observer(
         builder: (context) {
           if (controller.countries.isEmpty) {
-            return const CircularProgressIndicator();
+            return const Center(
+              child: CircularProgressIndicator(),
+            );
           }
 
           return ListView.builder(

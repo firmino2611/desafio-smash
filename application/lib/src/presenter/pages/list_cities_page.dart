@@ -35,7 +35,9 @@ class _ListCitiesPageState extends State<ListCitiesPage> {
       body: Observer(
         builder: (context) {
           if (controller.cities.isEmpty) {
-            return const CircularProgressIndicator();
+            return const Center(
+              child: CircularProgressIndicator(),
+            );
           }
 
           return ListView.builder(

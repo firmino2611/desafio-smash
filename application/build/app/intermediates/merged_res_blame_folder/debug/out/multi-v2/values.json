@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/smash/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
-                {
-                    "source": "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/smash/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,711",
-                        "endColumns": "143,81,103,108,119,96,73",
-                        "endOffsets": "194,276,380,489,609,706,780"
-                    },
-                    "to": {
-                        "startLines": "119,120,121,122,123,124,125",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8513,8657,8739,8843,8952,9072,9169",
-                        "endColumns": "143,81,103,108,119,96,73",
-                        "endOffsets": "8652,8734,8838,8947,9067,9164,9238"
-                    }
-                },
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/res/values/values.xml",
                     "from": {
@@ -37,6 +20,23 @@
                         "endLines": "13,14,15,16,17,18,19,20,101,102,103,104,105,106,107,108,110,111,112,113,114,115,116,117,118,310,329",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "746,826,916,1006,1086,1167,1247,1327,6280,6461,6586,6693,6873,6996,7112,7215,7570,7675,7856,7981,8156,8304,8367,8429,8508,19850,20267"
+                    }
+                },
+                {
+                    "source": "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,711",
+                        "endColumns": "143,81,103,108,119,96,73",
+                        "endOffsets": "194,276,380,489,609,706,780"
+                    },
+                    "to": {
+                        "startLines": "119,120,121,122,123,124,125",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8513,8657,8739,8843,8952,9072,9169",
+                        "endColumns": "143,81,103,108,119,96,73",
+                        "endOffsets": "8652,8734,8838,8947,9067,9164,9238"
                     }
                 },
                 {
@@ -95,7 +95,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/smash/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
