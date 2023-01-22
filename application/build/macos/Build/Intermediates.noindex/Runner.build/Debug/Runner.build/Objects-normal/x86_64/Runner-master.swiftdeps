@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
-options: "4d1593a340564bf99b888784eda019ca6deab78c34f6ba78d187d0343c4b645a"
-build_start_time: [1674040376, 937337875]
-build_end_time: [1674040392, 540977954]
-inputs:
-  "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/smash/macos/Flutter/GeneratedPluginRegistrant.swift": [1674040346, 879346847]
-  "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/smash/macos/Runner/AppDelegate.swift": [1673551017, 121324062]
-  "/Users/mac/Desktop/esquilo-digital/desafio-smash/application/smash/macos/Runner/MainFlutterWindow.swift": [1673551017, 131502628]
