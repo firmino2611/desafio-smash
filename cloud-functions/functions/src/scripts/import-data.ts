@@ -1,6 +1,6 @@
 import * as admin from "firebase-admin";
 import * as functions from "firebase-functions";
-
+import json from "./../data/cities.json";
 interface LineData {
   city: string;
   country: string;
@@ -8,33 +8,29 @@ interface LineData {
   geoId: string;
 }
 
-// const filePath = "functions/word-cities.csv";
-
 export const importData = functions
   .runWith({ timeoutSeconds: 540 })
   .https.onRequest(
     async (
-      req: functions.https.Request,
+      request: functions.https.Request,
       response: functions.Response
     ): Promise<any> => {
       const db: admin.firestore.Firestore = admin.firestore();
 
       let countries: Array<admin.firestore.DocumentSnapshot> = [];
+      try {
+        for (let index = 0; index < json.length; index++) {
+          const city = json[index];
 
-      for (let index = 0; index < lines.length; index++) {
-        const line = lines[index];
+          const lineData: LineData = {
+            city: city.name,
+            country: city.country,
+            subCountry: city.subcountry,
+            geoId: city.geonameid.toString(),
+          };
 
-        const fields = line.split(",");
-        const lineData: LineData = {
-          city: fields[0],
-          country: fields[1],
-          subCountry: fields[2],
-          geoId: fields[3],
-        };
+          let countrySaved;
 
-        let countrySaved;
-
-        if (index > 0) {
           const countryData = { name: lineData.country };
           const countryExists = countries.find((c) => {
             return c.data()!.name == lineData.country;
@@ -57,8 +53,15 @@ export const importData = functions
               subCountry: lineData.subCountry,
             });
         }
-      }
 
-      return response.json(lines.length);
+        return response.status(200).json({
+          message: "Import success!",
+        });
+      } catch (error) {
+        return response.status(500).json({
+          error: error,
+          message: "there was a problem",
+        });
+      }
     }
   );

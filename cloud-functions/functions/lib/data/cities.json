@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Chegutu",
+        "country": "Zimbabwe",
+        "subcountry": "Mashonaland West",
+        "geonameid": 894239
+    },
+    {
+        "name": "Bulawayo",
+        "country": "Zimbabwe",
+        "subcountry": "Bulawayo",
+        "geonameid": 894701
+    },
+    {
+        "name": "Bindura",
+        "country": "Zimbabwe",
+        "subcountry": "Mashonaland Central",
+        "geonameid": 895061
+    },
+    {
+        "name": "Beitbridge",
+        "country": "Zimbabwe",
+        "subcountry": "Matabeleland South",
+        "geonameid": 895269
+    },
+    {
+        "name": "Epworth",
+        "country": "Zimbabwe",
+        "subcountry": "Harare",
+        "geonameid": 1085510
+    },
+    {
+        "name": "Chitungwiza",
+        "country": "Zimbabwe",
+        "subcountry": "Harare",
+        "geonameid": 1106542
+    },
+    {
+        "name": "Dibba Al-Fujairah",
+        "country": "United Arab Emirates",
+        "subcountry": "Al Fujayrah",
+        "geonameid": 292231
+    },
+    {
+        "name": "Dibba Al-Hisn",
+        "country": "United Arab Emirates",
+        "subcountry": "Al Fujayrah",
+        "geonameid": 292239
+    },
+    {
+        "name": "Sharjah",
+        "country": "United Arab Emirates",
+        "subcountry": "Ash Shāriqah",
+        "geonameid": 292672
+    },
+    {
+        "name": "Ar Ruways",
+        "country": "United Arab Emirates",
+        "subcountry": "Abu Dhabi",
+        "geonameid": 292688
+    },
+    {
+        "name": "Nahrīn",
+        "country": "Afghanistan",
+        "subcountry": "Wilāyat-e Baghlān",
+        "geonameid": 1132495
+    },
+    {
+        "name": "Maymana",
+        "country": "Afghanistan",
+        "subcountry": "Faryab",
+        "geonameid": 1133453
+    },
+    {
+        "name": "Mehtar Lām",
+        "country": "Afghanistan",
+        "subcountry": "Laghmān",
+        "geonameid": 1133574
+    },
+    {
+        "name": "Mazār-e Sharīf",
+        "country": "Afghanistan",
+        "subcountry": "Balkh",
+        "geonameid": 1133616
+    },
+    {
+        "name": "Lashkar Gāh",
+        "country": "Afghanistan",
+        "subcountry": "Helmand",
+        "geonameid": 1134720
+    },
+    {
+        "name": "Kushk",
+        "country": "Afghanistan",
+        "subcountry": "Herat",
+        "geonameid": 1135158
+    },
+    {
+        "name": "Kunduz",
+        "country": "Afghanistan",
+        "subcountry": "Kunduz",
+        "geonameid": 1135689
+    },
+    {
+        "name": "Khōst",
+        "country": "Afghanistan",
+        "subcountry": "Khowst",
+        "geonameid": 1136469
+    },
+    {
+        "name": "Khulm",
+        "country": "Afghanistan",
+        "subcountry": "Balkh",
+        "geonameid": 1136575
+    },
+    {
+        "name": "Cotoca",
+        "country": "Bolivia",
+        "subcountry": "Santa Cruz",
+        "geonameid": 3918937
+    },
+    {
+        "name": "Cochabamba",
+        "country": "Bolivia",
+        "subcountry": "Cochabamba",
+        "geonameid": 3919968
+    },
+    {
+        "name": "Cobija",
+        "country": "Bolivia",
+        "subcountry": "Pando",
+        "geonameid": 3919998
+    },
+    {
+        "name": "Camiri",
+        "country": "Bolivia",
+        "subcountry": "Santa Cruz",
+        "geonameid": 3922414
+    },
+    {
+        "name": "Kralendijk",
+        "country": "Bonaire, Saint Eustatius and Saba",
+        "subcountry": "Bonaire",
+        "geonameid": 3513563
+    },
+    {
+        "name": "Vitória do Mearim",
+        "country": "Brazil",
+        "subcountry": "Maranhão",
+        "geonameid": 3384986
+    },
+    {
+        "name": "Vitória de Santo Antão",
+        "country": "Brazil",
+        "subcountry": "Pernambuco",
+        "geonameid": 3384987
+    },
+    {
+        "name": "Viseu",
+        "country": "Brazil",
+        "subcountry": "Pará",
+        "geonameid": 3385022
+    },
+    {
+        "name": "Conde",
+        "country": "Brazil",
+        "subcountry": "Paraíba",
+        "geonameid": 3385077
+    },
+    {
+        "name": "Vigia",
+        "country": "Brazil",
+        "subcountry": "Pará",
+        "geonameid": 3385088
+    },
+    {
+        "name": "Viçosa do Ceará",
+        "country": "Brazil",
+        "subcountry": "Ceará",
+        "geonameid": 3385106
+    },
+    {
+        "name": "Viçosa",
+        "country": "Brazil",
+        "subcountry": "Alagoas",
+        "geonameid": 3385109
+    },
+    {
+        "name": "Viana",
+        "country": "Brazil",
+        "subcountry": "Maranhão",
+        "geonameid": 3385122
+    },
+    {
+        "name": "Várzea Alegre",
+        "country": "Brazil",
+        "subcountry": "Ceará",
+        "geonameid": 3385467
+    }
+]
